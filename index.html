@@ -10,7 +10,7 @@
 </head>
 <body>
     <section class="bg-[#228b24]">
-        <nav class= "flex flex-col md:flex-row container m-auto justify-between text-white space-y-3 px-5 py-3">
+        <nav class= "flex flex-col md:flex-row container m-auto justify-between text-white space-y-5 px-5 py-3">
             <h1 class="font-extrabold text-2xl text-white text-center ">Juma Shafara</h1>
             <ul class="flex flex-row justify-between px-3">
                 <li>
@@ -58,9 +58,9 @@
     </section>
 
     <!-- Hero Section -->
-    <section class="h-[80vh] w-full m-0 bg-no-repeat bg-fixed bg-cover bg-center bg-[url('https://drive.google.com/uc?export=view&id=1TA5KKBLaTs6av4o5Fsg0CN1it05O70f2')]">
+    <section class="h-[80vh] flex justify-center align-middle w-full bg-no-repeat bg-fixed bg-cover bg-center bg-[url('https://drive.google.com/uc?export=view&id=1TA5KKBLaTs6av4o5Fsg0CN1it05O70f2')]">
         <div class=" flex flex-col md:flex-row m-auto items-center">
-            <main class="flex flex-col space-y-7 p-5 md:w-2/3">
+            <main class="flex flex-col space-y-7 p-5 md:w-2/3 text-gray-900">
                 <p><i class="fa-solid fa-location-dot"></i><span> Kampala, Uganda</span></p>
                 <h1 class= "font-extrabold text-5xl" >Web Developer and Statistician.</h1>
                 <p class="font-medium text-base">
@@ -82,76 +82,110 @@
     </section>
 
     <!-- Services -->
-    <section>
-        <h1>Services</h1>
+    <section class="bg-zinc-900 text-white py-10">
+        <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Services</h1>
         <!-- Web Development -->
-        <div>
-            <main>
-                <div>
-                    <img src="" alt="webdev">
-                </div>
-            </main>
-            <aside>
-                <h2>Web Development</h2>
-                <p>I design and code customized websites and tailor them to match my clients needs</p>
-                <div>
-                    <h3>My Tech Stack</h3>
-                    <div>
-                        <a href="">Figma</a>
-                        <a href="">MongoDB</a>
-                        <a href="">ExpressJS</a>
-                        <a href="">ReactJS</a>
-                        <a href="">NodeJS</a>
-                    </div>
+        <div class="flex flex-col align-middle space-y-5">
+            <h2 class="font-bold text-3xl">Web Development</h2>
+            <aside class="">
+                <div class="rounded bg-gray-300">
+                    <img src="https://drive.google.com/uc?export=view&id=1Euji9W5jA9MrI-AOZLTDGMcL-TmKI9sf" alt="webdev"
+                    class="hidden rounded-lg absolute left-3 top-3" 
+                    >
                 </div>
             </aside>
+            <main class="flex flex-col space-y-5">
+                <p class="font-base">
+                    I design and code customized websites and tailor them to match my clients needs
+                    using the best software in the business.
+                </p>
+                <div class="container m-auto p-3 space-y-5">
+                    <h3 class="text-lg text-center font-semibold">My Tech Stack</h3>
+                    <div class="flex flex-row text-3xl justify-between w-1/2 m-auto ">
+                        <a href="" class="flex flex-col">
+                            <span class="text-center"><i class="fa-brands fa-figma"></i></span>
+                            <span class="text-center text-base">Figma</span>
+                        </a>
+                        <!-- <a href="">MongoDB</a>
+                        <a href="">ExpressJS</a> -->
+                        <a href="" class="flex flex-col">
+                            <span class="text-center"><i class="fa-brands fa-react"></i></span>
+                            <span class="text-center text-base">React</span>
+                            </a>
+                        <a href="" class="flex flex-col">
+                            <span class="text-center "><i class="fa-brands fa-node"></i></span>
+                            <span class="text-center text-base">NodeJS</span>
+                        </a>
+                    </div>
+                </div>
+            </main>
         </div>
 
         <!-- Data analysis -->
-        <div>
+        <div class="flex flex-col space-y-5">
             <main>
                 <div>
-                    <img src="" alt="webdev">
+                    <img class="hidden"
+                    src="" alt="webdev">
                 </div>
             </main>
-            <aside>
-                <h2>Data analysis</h2>
+            <aside class="flex flex-col space-y-5">
+                <h2font-extrabold class = "font-bold text-3xl py-5">Data analysis</h2font-extrabold>
                 <p>
                     I can identify trends in your data, write user-friedly reports, 
                     guide decision making processes and implement statistical models
                 </p>
-                <div>
-                    <h3>My Tech Stack</h3>
-                    <div>
-                        <a href="">Stata</a>
-                        <a href="">Pandas</a>
-                        <a href="">Scikit-Learn</a>
-                        <a href="">MySQL</a>
-                        <a href="">Git and Github</a>
-                    </div>
+                <div class="flex flex-col space-y-5 text-center">
+                    <h3 class="font-semibold">My Tech Stack</h3>
+                    <div class="flex flex-row justify-between w-1/2 m-auto">
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-python"></i></span>
+                            <span>Python</span>
+                        </a>
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-r-project"></i></span>
+                            <span>R-Project</span>
+                        </a>
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-github"></i></span>
+                            <span>
+                                <p>Git &</p>
+                                <p>GitHub</p>
+                            </span>
+                        </a>
                 </div>
             </aside>
         </div>
 
         <!-- Technical writing -->
-        <div>
+        <div class="space-y-5">
             <main>
                 <div>
-                    <img src="" alt="webdev">
+                    <img class="hidden"
+                    src="" alt="webdev">
                 </div>
             </main>
-            <aside>
-                <h2>Technical writing</h2>
+            <aside class="space-y-5">
+                <h2 class="font-bold text-3xl">Technical writing</h2>
                 <p>
                     I can identify trends in your data, write user-friedly reports, 
                     guide decision making processes and implement statistical models
                 </p>
-                <div>
-                    <h3>Where I write</h3>
-                    <div>
-                        <a href="">Hashnode</a>
-                        <a href="">Dev</a>
-                        <a href="">ResearchGate</a>
+                <div class="text-center space-y-5">
+                    <h3 class="font-semibold">Where I write</h3>
+                    <div class="flex flex-row justify-between w-1/2 m-auto">
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-dev"></i></span>
+                            <span>DEV</span>
+                        </a>
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-hashnode"></i></span>
+                            <span>Hashnode</span>
+                        </a>
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-researchgate"></i></span>
+                            <span><p>Research</p><p>Gate</p></span>
+                        </a>
                     </div>
                 </div>
             </aside>
