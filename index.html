@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,900;1,300;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/42e0e8b23e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/output.css">
     <title>Juma Shafara</title>
 </head>
 <body class="font-[Poppins]">
@@ -65,7 +65,8 @@
         <div class=" flex flex-col md:flex-row m-auto items-center">
             <main class="flex flex-col space-y-7 p-5 md:w-2/3 text-gray-900">
                 <p><i class="fa-solid fa-location-dot"></i><span> Kampala, Uganda</span></p>
-                <h1 class= "font-extrabold text-5xl" >Web Developer and Statistician.</h1>
+                <h1 class= "font-extrabold text-5xl" >Web Developer,</h1>
+                <h1 class= "font-extrabold text-5xl" >Statistician</h1>
                 <p class="font-medium text-base">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsa consequatur, ipsum optio autem velit quis reprehenderit veritatis neque vero natus, delectus exercitationem magnam, recusandae atque fuga aspernatur explicabo architecto.
                 </p>
@@ -85,7 +86,7 @@
     </section>
 
     <!-- Services -->
-    <section class="bg-zinc-900 text-white py-10">
+    <section class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5">
         <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Services</h1>
         <!-- Web Development -->
         <div class="flex flex-col align-middle space-y-5">
@@ -140,18 +141,18 @@
                 </p>
                 <div class="flex flex-col space-y-5 text-center">
                     <h3 class="font-semibold">My Tech Stack</h3>
-                    <div class="flex flex-row justify-between w-1/2 m-auto">
+                    <div class="flex flex-row justify-between w-1/2 m-auto text-3xl">
                         <a href="" class="flex flex-col">
                             <span><i class="fa-brands fa-python"></i></span>
-                            <span>Python</span>
+                            <span class="text-base">Python</span>
                         </a>
                         <a href="" class="flex flex-col">
                             <span><i class="fa-brands fa-r-project"></i></span>
-                            <span>R-Project</span>
+                            <span class="text-base">R-Lang</span>
                         </a>
                         <a href="" class="flex flex-col">
                             <span><i class="fa-brands fa-github"></i></span>
-                            <span>
+                            <span class="text-base">
                                 <p>Git &</p>
                                 <p>GitHub</p>
                             </span>
@@ -176,18 +177,24 @@
                 </p>
                 <div class="text-center space-y-5">
                     <h3 class="font-semibold">Where I write</h3>
-                    <div class="flex flex-row justify-between w-1/2 m-auto">
+                    <div class="flex flex-row justify-between w-1/2 m-auto text-3xl">
                         <a href="" class="flex flex-col">
                             <span><i class="fa-brands fa-dev"></i></span>
-                            <span>DEV</span>
+                            <span class="text-base">DEV</span>
                         </a>
                         <a href="" class="flex flex-col">
                             <span><i class="fa-brands fa-hashnode"></i></span>
-                            <span>Hashnode</span>
+                            <span class="text-base">
+                                <p>Hash</p>
+                                <p>node</p>
+                            </span>
                         </a>
                         <a href="" class="flex flex-col">
                             <span><i class="fa-brands fa-researchgate"></i></span>
-                            <span><p>Research</p><p>Gate</p></span>
+                            <span class="text-base">
+                                <p>Research</p>
+                                <p>Gate</p>
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -196,51 +203,59 @@
     </section>
 
     <!-- Blog -->
-    <section>
-        <h1>Blog</h1>
-        <div>
-            <main>
-                <h2>The Ultimate R Language Beginner Tutorial</h2>
+    <section class="py-10 p-5 flex flex-col space-y-5">
+        <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Blog</h1>
+        <div class="flex flex-col space-y-5">
+            <main class="flex flex-col space-y-5">
+                <h2 class="font-semibold text-3xl">The Ultimate R Language Beginner Tutorial</h2>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Itaque dolor, eius mollitia laborum perspiciatis eligendi illo 
-                    eum consequatur repellendus suscipit nostrum voluptates cum numquam 
-                    quasi delectus ad. Totam, sunt ipsa.
+                    R is a programming language, that is often associated with statistical computing, 
+                    used for graphical presentation and analyzing and visualizing data.
+                    That said, R comes with the full power of a programming language and should 
+                    be able to execute tasks required of programming languages.
                 </p>
             </main>
-            <aside>
-                <a href="">Read on Blog</a>
-                <a href="">Sponsor Blog</a>
+            <aside class="flex flex-col space-y-3 w-1/2 m-auto">
+                <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+                href="https://blog.jumashafara.com/the-r-language">Read on Blog</a>
+                <a class="btn bg-gray-500 text-center rounded p-3 text-white font-medium"
+                href="">Sponsor Blog</a>
             </aside>
         </div>
-        <div>
-            <main>
-                <h2>The Ultimate R Language Beginner Tutorial</h2>
+        <div class="flex flex-col space-y-5">
+            <main class="flex flex-col space-y-5">
+                <h2 class="font-semibold text-3xl">4 Reasons why you should not learn to code.</h2>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Itaque dolor, eius mollitia laborum perspiciatis eligendi illo 
-                    eum consequatur repellendus suscipit nostrum voluptates cum numquam 
-                    quasi delectus ad. Totam, sunt ipsa.
+                    All people tell you to learn code, they say it's easy, 
+                    with life-changing financial implications, and this could be true, 
+                    but rarely do they tell you why you should not learn to code. 
+                    These reasons are entirely my personal view and if you agree or disagree, 
+                    leave your idea in the comments, 
+                    also if there's a good reason I didn't mention, add it in the comments.
                 </p>
             </main>
-            <aside>
-                <a href="">Read on Blog</a>
-                <a href="">Sponsor Blog</a>
+            <aside class="flex flex-col space-y-3 w-1/2 m-auto">
+                <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+                href="https://blog.jumashafara.com/4-reasons-why-you-should-not-learn-to-code">Read on Blog</a>
+                <a class="btn bg-gray-500 text-center rounded p-3 text-white font-medium"
+                    href="">Sponsor Blog</a>
             </aside>
         </div>
-        <div>
-            <main>
-                <h2>The Ultimate R Language Beginner Tutorial</h2>
+        <div class="flex flex-col space-y-5">
+            <main class="flex flex-col space-y-5">
+                <h2 class="font-semibold text-3xl">Create a fake REST API with zero coding in less than 30 seconds(seriously)</h2>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Itaque dolor, eius mollitia laborum perspiciatis eligendi illo 
-                    eum consequatur repellendus suscipit nostrum voluptates cum numquam 
-                    quasi delectus ad. Totam, sunt ipsa.
+                    You may want to create a fully functional frontend but for some reason, 
+                    you're lacking a backend or API to service it. Maybe because you can't 
+                    develop one or you're just 
+                    practicing or focusing on the front end or you're probably lazy 😁.
                 </p>
             </main>
-            <aside>
-                <a href="">Read on Blog</a>
-                <a href="">Sponsor Blog</a>
+            <aside class="flex flex-col space-y-3 w-1/2 m-auto">
+                <a  class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+                    href="https://blog.jumashafara.com/create-a-fake-rest-api-with-zero-coding-in-less-than-30-secondsseriously">Read on Blog</a>
+                <a class="btn bg-gray-500 text-center rounded p-3 text-white font-medium"
+                    href="">Sponsor Blog</a>
             </aside>
         </div>
     </section>
