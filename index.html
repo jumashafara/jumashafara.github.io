@@ -13,9 +13,9 @@
 </head>
 <body class="font-[Poppins]">
     <section class="bg-[#228b24]" id="home">
-        <nav class= "flex flex-col md:flex-row container m-auto justify-between text-white space-y-5 px-5 py-3">
-            <h1 class="font-extrabold text-2xl text-white text-center ">Juma Shafara</h1>
-            <ul class="flex flex-row justify-between px-3">
+        <nav class= " flex flex-col md:flex-row container m-auto md:justify-between text-white  space-y-5 md:space-y-0 px-5 py-3">
+            <h1 class="font-extrabold text-2xl text-white text-center md:w-1/3">Juma Shafara</h1>
+            <ul class="flex flex-row space-x-5 m-auto md:w-2/3 justify-end">
                 <li>
                     <a href="#services" class="font-medium text-gray-200 hover:text-white active:white">
                         <span class="md:hidden">
@@ -36,12 +36,12 @@
                         <span class="hidden md:block"> Shop</span>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#portfolio" class="font-medium text-gray-200 hover:text-white active:white">
                         <span class="md:hidden"><i class="fa-solid fa-briefcase"></i></span>
                         <span class="hidden md:block"> Portfolio</span>
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="#about" class="font-medium text-gray-200 hover:text-white active:white">
                         <!--  -->
@@ -63,16 +63,17 @@
     <!-- Hero Section -->
     <section id="hero" 
             class="h-[80vh] flex justify-center align-middle w-full bg-no-repeat bg-fixed bg-cover bg-center bg-[url('https://drive.google.com/uc?export=view&id=1TA5KKBLaTs6av4o5Fsg0CN1it05O70f2')]">
-        <div class=" flex flex-col md:flex-row m-auto items-center">
+        <div class=" md:px-32 flex flex-col md:flex-row m-auto items-center">
             <main class="flex flex-col space-y-7 p-5 md:w-2/3 text-gray-900">
                 <p><i class="fa-solid fa-location-dot"></i><span> Kampala, Uganda</span></p>
                 <h1 class= "font-extrabold text-5xl" >Web Developer, Statistician</h1>
-                <p class="font-medium text-base">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsa consequatur, ipsum optio autem velit quis reprehenderit veritatis neque vero natus, delectus exercitationem magnam, recusandae atque fuga aspernatur explicabo architecto.
+                <p class="font-normal text-base">
+                    While in my year one Bachelor's in Statistics, I was was introduced to programming, we fell in love and the rest was history. 
+                    I decided to exploit their intercourse to become a hybrid developer.
                 </p>
-                <div class="flex flex-col space-y-3 w-2/3 align-items-left md:flex-row ">
-                    <a href="" class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium">See Resume</a>
-                    <a href="mailto: jumashafara0@gmail.com" class="btn bg-gray-500 text-center rounded p-3 text-white font-medium">Send Email</a>
+                <div class="flex flex-col w-2/3 space-y-3 md:flex-row md:space-x-3 md:space-y-0">
+                    <a href="#" class="btn bg-[#228b24] hover:bg-green-800 text-center rounded p-3 text-white font-medium">See Resume</a>
+                    <a href="mailto: jumashafara0@gmail.com" class="btn bg-gray-500 hover:bg-slate-800 text-center rounded p-3 text-white font-medium">Send Email</a>
                 </div>
             </main>
             <aside class="md:w-1/3">
@@ -86,19 +87,20 @@
     </section>
 
     <!-- Services -->
-    <section class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5" id="services">
+    <section class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5 md:px-32" 
+    id="services">
         <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Services</h1>
         <!-- Web Development -->
-        <div class="flex flex-col align-middle space-y-5">
-            <h2 class="font-bold text-3xl">Web Development</h2>
-            <aside class="">
-                <div class="rounded bg-gray-300">
-                    <img src="https://drive.google.com/uc?export=view&id=1Euji9W5jA9MrI-AOZLTDGMcL-TmKI9sf" alt="webdev"
-                    class="hidden rounded-lg absolute left-3 top-3" 
-                    >
+        <div class="flex flex-col align-middle space-y-5 md:flex-row">
+            <aside class="md:w-1/2">
+                <div class="md:pt-10 flex justify-center align-middle text-white text-9xl">
+                    <span>
+                        <i class="fa-brands fa-chrome"></i>
+                    </span>
                 </div>
             </aside>
-            <main class="flex flex-col space-y-5">
+            <main class="flex flex-col space-y-5 md:w-1/2">
+                <h2 class = "font-bold text-3xl py-5">Web Development</h2>
                 <p class="font-base">
                     I design and code customized websites and tailor them to match my clients needs
                     using the best software in the business.
@@ -126,15 +128,16 @@
         </div>
 
         <!-- Data analysis -->
-        <div class="flex flex-col space-y-5">
-            <main>
-                <div>
-                    <img class="hidden"
-                    src="" alt="webdev">
+        <div class="flex flex-col space-y-5 md:flex-row-reverse">
+            <main class="md:w-1/2">
+                <div class="md:pt-10 flex justify-center align-middle text-white text-9xl">
+                    <span>
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </span>
                 </div>
             </main>
-            <aside class="flex flex-col space-y-5">
-                <h2font-extrabold class = "font-bold text-3xl py-5">Data analysis</h2font-extrabold>
+            <aside class="flex flex-col space-y-5 md:w-1/2">
+                <h2 class = "font-bold text-3xl py-5">Data analysis</h2>
                 <p>
                     I can identify trends in your data, write user-friedly reports, 
                     guide decision making processes and implement statistical models
@@ -162,14 +165,15 @@
         </div>
 
         <!-- Technical writing -->
-        <div class="space-y-5">
-            <main>
-                <div>
-                    <img class="hidden"
-                    src="" alt="webdev">
+        <div class="flex flex-col space-y-5 md:flex-row">
+            <aside class="md:w-1/2">
+                <div class="md:pt-10 flex justify-center align-middle text-white text-9xl">
+                    <span>
+                        <i class="fa-regular fa-newspaper"></i>
+                    </span>
                 </div>
-            </main>
-            <aside class="space-y-5">
+            </aside>
+            <main class="space-y-5 md:w-1/2">
                 <h2 class="font-bold text-3xl">Technical writing</h2>
                 <p>
                     I can identify trends in your data, write user-friedly reports, 
@@ -198,15 +202,15 @@
                         </a>
                     </div>
                 </div>
-            </aside>
+            </main>
         </div>
     </section>
 
     <!-- Blog -->
-    <section class="py-10 p-5 flex flex-col space-y-5">
+    <section class="py-10 p-5 flex flex-col space-y-5 md:px-32 mx-auto">
         <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Blog</h1>
-        <div class="flex flex-col space-y-5">
-            <main class="flex flex-col space-y-5">
+        <div class="flex flex-col space-y-5 md:flex-row">
+            <main class="flex flex-col space-y-5 md:w-1/2">
                 <h2 class="font-semibold text-3xl">The Ultimate R Language Beginner Tutorial</h2>
                 <p>
                     R is a programming language, that is often associated with statistical computing, 
@@ -215,15 +219,22 @@
                     be able to execute tasks required of programming languages.
                 </p>
             </main>
-            <aside class="flex flex-col space-y-3 w-1/2 ">
-                <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+            <aside class="flex flex-row space-y-3 space-x-3 md:w-1/2 md:flex-col">
+                <div class="flex flex-col space-y-3 w-1/2 md:m-auto">
+                    <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
                 href="https://blog.jumashafara.com/the-r-language">Read on Blog</a>
                 <a class="btn bg-gray-500 text-center rounded p-3 text-white font-medium"
                 href="">Sponsor Blog</a>
+                </div>
+                <div class="flex flex-row justify-center align-middl text-9xl text-zinc-300 w-1/2">
+                    <span class="m-auto">
+                        <i class="fa-regular fa-newspaper"></i>
+                    </span>
+                </div>
             </aside>
         </div>
-        <div class="flex flex-col space-y-5">
-            <main class="flex flex-col space-y-5">
+        <div class="flex flex-col space-y-5 md:flex-row">
+            <main class="flex flex-col space-y-5 md:w-1/2">
                 <h2 class="font-semibold text-3xl">4 Reasons why you should not learn to code.</h2>
                 <p>
                     All people tell you to learn code, they say it's easy, 
@@ -234,15 +245,22 @@
                     also if there's a good reason I didn't mention, add it in the comments.
                 </p>
             </main>
-            <aside class="flex flex-col space-y-3 w-1/2 ">
-                <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
-                href="https://blog.jumashafara.com/4-reasons-why-you-should-not-learn-to-code">Read on Blog</a>
+            <aside class="flex flex-row space-y-3 space-x-3 md:w-1/2 md:flex-col">
+                <div class="flex flex-col space-y-3 w-1/2 md:m-auto">
+                    <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+                href="https://blog.jumashafara.com/the-r-language">Read on Blog</a>
                 <a class="btn bg-gray-500 text-center rounded p-3 text-white font-medium"
-                    href="">Sponsor Blog</a>
+                href="">Sponsor Blog</a>
+                </div>
+                <div class="flex flex-row justify-center align-middl text-9xl text-zinc-300 w-1/2">
+                    <span class="m-auto">
+                        <i class="fa-regular fa-newspaper"></i>
+                    </span>
+                </div>
             </aside>
         </div>
-        <div class="flex flex-col space-y-5">
-            <main class="flex flex-col space-y-5">
+        <div class="flex flex-col space-y-5 md:flex-row">
+            <main class="flex flex-col space-y-5 md:w-1/2">
                 <h2 class="font-semibold text-3xl">Create a fake REST API with zero coding in less than 30 seconds(seriously)</h2>
                 <p>
                     You may want to create a fully functional frontend but for some reason, 
@@ -251,17 +269,25 @@
                     practicing or focusing on the front end or you're probably lazy 😁.
                 </p>
             </main>
-            <aside class="flex flex-col space-y-3 w-1/2 ">
-                <a  class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
-                    href="https://blog.jumashafara.com/create-a-fake-rest-api-with-zero-coding-in-less-than-30-secondsseriously">Read on Blog</a>
+            <aside class="flex flex-row space-y-3 space-x-3 md:w-1/2 md:flex-col">
+                <div class="flex flex-col space-y-3 w-1/2 md:m-auto">
+                    <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+                href="https://blog.jumashafara.com/the-r-language">Read on Blog</a>
                 <a class="btn bg-gray-500 text-center rounded p-3 text-white font-medium"
-                    href="">Sponsor Blog</a>
+                href="">Sponsor Blog</a>
+                </div>
+                <div class="flex flex-row justify-center align-middl text-9xl text-zinc-300 w-1/2">
+                    <span class="m-auto">
+                        <i class="fa-regular fa-newspaper"></i>
+                    </span>
+                </div>
             </aside>
         </div>
     </section>
 
     <!-- Shop -->
-    <section class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5" id="shop">
+    <section class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5 md:px-20 m-auto" 
+    id="shop">
         <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Shop</h1>
         <div class="flex flex-col align-middle space-y-5">
             <main class="container m-auto flex flex-col p-3 space-y-5">
@@ -346,7 +372,7 @@
         </div>
     </section>
     <section id="about"
-            class="text-gray-900 py-10 p-5 flex flex-col space-y-5" id="shop">
+            class="text-gray-900 py-10 p-5 flex flex-col space-y-5">
         <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">About Me</h1>
         <main class="container m-auto flex flex-col p-3 space-y-5">
             <h2 class="text-lg font-semibold">Hi, I'm Juma Shafara</h2>
@@ -442,7 +468,7 @@
 
     <!-- Contact -->
     <section id="contact"
-            class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5" id="shop">
+            class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5">
         <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Contact</h1>
         <h2 class="font-bold text-3xl">Lets get in touch</h2>
         <div class="flex flex-row justify-between p-5">
