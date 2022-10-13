@@ -12,7 +12,7 @@
     <title>Juma Shafara</title>
 </head>
 <body class="font-[Poppins]">
-    <section class="bg-[#228b24]">
+    <section class="bg-[#228b24]" id="home">
         <nav class= "flex flex-col md:flex-row container m-auto justify-between text-white space-y-5 px-5 py-3">
             <h1 class="font-extrabold text-2xl text-white text-center ">Juma Shafara</h1>
             <ul class="flex flex-row justify-between px-3">
@@ -61,7 +61,8 @@
     </section>
 
     <!-- Hero Section -->
-    <section class="h-[80vh] flex justify-center align-middle w-full bg-no-repeat bg-fixed bg-cover bg-center bg-[url('https://drive.google.com/uc?export=view&id=1TA5KKBLaTs6av4o5Fsg0CN1it05O70f2')]">
+    <section id="hero" 
+            class="h-[80vh] flex justify-center align-middle w-full bg-no-repeat bg-fixed bg-cover bg-center bg-[url('https://drive.google.com/uc?export=view&id=1TA5KKBLaTs6av4o5Fsg0CN1it05O70f2')]">
         <div class=" flex flex-col md:flex-row m-auto items-center">
             <main class="flex flex-col space-y-7 p-5 md:w-2/3 text-gray-900">
                 <p><i class="fa-solid fa-location-dot"></i><span> Kampala, Uganda</span></p>
@@ -85,7 +86,7 @@
     </section>
 
     <!-- Services -->
-    <section class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5">
+    <section class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5" id="services">
         <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Services</h1>
         <!-- Web Development -->
         <div class="flex flex-col align-middle space-y-5">
@@ -102,9 +103,9 @@
                     I design and code customized websites and tailor them to match my clients needs
                     using the best software in the business.
                 </p>
-                <div class="container m-auto p-3 space-y-5">
+                <div class="container m-auto space-y-5">
                     <h3 class="text-lg text-center font-semibold">My Tech Stack</h3>
-                    <div class="flex flex-row text-3xl justify-between w-1/2 m-auto ">
+                    <div class="flex flex-row justify-between w-1/2 m-auto text-3xl">
                         <a href="" class="flex flex-col">
                             <span class="text-center"><i class="fa-brands fa-figma"></i></span>
                             <span class="text-center text-base">Figma</span>
@@ -140,7 +141,7 @@
                 </p>
                 <div class="flex flex-col space-y-5 text-center">
                     <h3 class="font-semibold">My Tech Stack</h3>
-                    <div class="flex flex-row justify-between w-1/2 m-auto text-3xl">
+                    <div class="flex flex-row p-5 space-x-3 justify-center">
                         <a href="" class="flex flex-col">
                             <span><i class="fa-brands fa-python"></i></span>
                             <span class="text-base">Python</span>
@@ -176,9 +177,9 @@
                 </p>
                 <div class="text-center space-y-5">
                     <h3 class="font-semibold">Where I write</h3>
-                    <div class="flex flex-row justify-between w-1/2 m-auto text-3xl">
+                    <div class="flex flex-row p-5 space-x-3 justify-center">
                         <a href="" class="flex flex-col">
-                            <span><i class="fa-brands fa-dev"></i></span>
+                            <span class=""><i class="fa-brands fa-dev"></i></span>
                             <span class="text-base">DEV</span>
                         </a>
                         <a href="" class="flex flex-col">
@@ -258,17 +259,30 @@
             </aside>
         </div>
     </section>
-    <section>
-        <h1>Shop</h1>
-        <div>
-            <main>
-                <h2>Computers, Phones and accessories</h2>
+
+    <!-- Shop -->
+    <section class="bg-zinc-900 text-white py-10 p-5 flex flex-col space-y-5" id="shop">
+        <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">Shop</h1>
+        <div class="flex flex-col align-middle space-y-5">
+            <main class="container m-auto flex flex-col p-3 space-y-5">
+                <h2 class="font-bold text-3xl">Computers, Phones and accessories</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Soluta molestias dolore commodi voluptate reprehenderit facilis ab obcaecati? Dolor, veritatis aspernatur? 
                     Esse deleniti enim quam, cupiditate praesentium doloribus. Vitae, natus officiis.
                 </p>
-                <a href="">Go to Shop</a>
+                <div class="flex flex-col space-y-3">
+                    <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+                    href="">
+                    <span>Go to Shop</span>
+                    <span class=""><i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                    <a class="btn bg-gray-500 rounded p-3 text-white text-center font-medium"
+                    href="">
+                        <span>Call me</span>
+                        <!-- <span class=""><i class="fa-solid fa-arrow-right"></i></span> -->
+                    </a>
+                </div>
             </main>
             <aside>
                 <div>
@@ -277,14 +291,25 @@
             </aside>
         </div>
         <div>
-            <main>
-                <h2>Interior Design Items</h2>
+            <main class="container m-auto flex flex-col p-3 space-y-5">
+                <h2 class="font-bold text-3xl">Interior Design Items</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Soluta molestias dolore commodi voluptate reprehenderit facilis ab obcaecati? Dolor, veritatis aspernatur? 
                     Esse deleniti enim quam, cupiditate praesentium doloribus. Vitae, natus officiis.
                 </p>
-                <a href="">Go to Shop</a>
+                <div class="flex flex-col space-y-3">
+                    <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+                    href="">
+                    <span>Go to Shop</span>
+                    <span class=""><i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                    <a class="btn bg-gray-500 rounded p-3 text-white text-center font-medium"
+                    href="">
+                        <span>Call me</span>
+                        <!-- <span class=""><i class="fa-solid fa-arrow-right"></i></span> -->
+                    </a>
+                </div>
             </main>
             <aside>
                 <div>
@@ -293,26 +318,38 @@
             </aside>
         </div>
         <div>
-            <main>
-                <h2>Shirts, Pants and Shoes</h2>
+            <main class="container m-auto flex flex-col p-3 space-y-5">
+                <h2 class="font-bold text-3xl">Shirts, Pants and Shoes</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Soluta molestias dolore commodi voluptate reprehenderit facilis ab obcaecati? Dolor, veritatis aspernatur? 
                     Esse deleniti enim quam, cupiditate praesentium doloribus. Vitae, natus officiis.
                 </p>
-                <a href="">Go to Shop</a>
+                <div class="flex flex-col space-y-3">
+                    <a class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium"
+                    href="">
+                    <span>Go to Shop</span>
+                    <span class=""><i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                    <a class="btn bg-gray-500 rounded p-3 text-white text-center font-medium"
+                    href="">
+                        <span>Call me</span>
+                        <!-- <span class=""><i class="fa-solid fa-arrow-right"></i></span> -->
+                    </a>
+                </div>
             </main>
             <aside>
                 <div>
-                    <img src="" alt="">
+                    <img class="hidden" src="" alt="">
                 </div>
             </aside>
         </div>
     </section>
-    <section>
-        <h1>About Me</h1>
-        <main>
-            <h2>Hi, I'm Juma Shafara</h2>
+    <section id="about"
+            class="text-gray-900 py-10 p-5 flex flex-col space-y-5" id="shop">
+        <h1 class="font-extrabold text-5xl text-[#228b24] text-center pb-10">About Me</h1>
+        <mainb class="container m-auto flex flex-col p-3 space-y-5">
+            <h2 class="text-lg font-semibold">Hi, I'm Juma Shafara</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Cum consequuntur id voluptatem earum sed, illo soluta accusamus repellat. 
@@ -329,27 +366,76 @@
                 possimus expedita sed cupiditate facilis animi nisi doloribus porro ipsa! Porro dolore dolorem, ipsum 
                 placeat doloremque, consequuntur quidem magnam inventore deserunt architecto eveniet vitae officiis 
             </p>
-            <div>
-                <h3>My Tech Stack</h3>
+            <div class="flex flex-col">
+                <h3 class="text-lg font-semibold text-center">My Tech Stack</h3>
                 <p>I'm proficient with the following relevant technologies</p>
-                <div>
-                    <a href="">JavaScript</a>
-                    <a href="">Python</a>
-                    <a href="">Git and GitHub</a>
-                    <a href="">ClickUp</a>
-                    <a href="">WindowsOS</a>
+                <div class="w-full flex flex-col m-auto text-3xl p-5 space-y-3 text-center">
+                    <div class="flex flex-row p-5 space-x-3 justify-center">
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-js"></i></span>
+                            <span class="text-base">JavaScript</span>
+                        </a>
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-python"></i></span>
+                            <span class="text-base">Python</span>
+                        </a>
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-r-project"></i></span>
+                            <span class="text-base">R-Lang</span>
+                        </a>
+                        <a href="" class="flex flex-col">
+                            <span><i class="fa-brands fa-github"></i></span>
+                            <span class="text-base">
+                                <p>Git &</p>
+                                <p>GitHub</p>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="flex flex-row p-5 space-x-3 justify-center">
+                        <a href="" class="flex flex-col">
+                            <span class="text-center"><i class="fa-brands fa-figma"></i></span>
+                            <span class="text-center text-base">Figma</span>
+                        </a>
+                        <!-- <a href="">MongoDB</a>
+                        <a href="">ExpressJS</a> -->
+                        <a href="" class="flex flex-col">
+                            <span class="text-center"><i class="fa-brands fa-react"></i></span>
+                            <span class="text-center text-base">React</span>
+                            </a>
+                        <a href="" class="flex flex-col">
+                            <span class="text-center "><i class="fa-brands fa-node"></i></span>
+                            <span class="text-center text-base">NodeJS</span>
+                        </a>
+                        <a href="" class="flex flex-col">
+                            <span class="text-center "><i class="fa-brands fa-windows"></i></span>
+                            <span class="text-center text-base">Windows</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </main>
-        <aside>
+        </mainb>
+        <aside class="flex flex-col space-y-5">
             <div>
-                <img src="" alt="juma shafara">
+                <img class="hidden"
+                 src="" alt="juma shafara">
             </div>
-            <a href="">See Resume</a>
-            <div>
-                <a href="">LinkedIn</a>
-                <a href="">Twitter</a>
-                <a href="">GitHub</a>
+            <a href="" class="btn bg-[#228b24] rounded p-3 text-white text-center font-medium">See Resume</a>
+            <div class="flex flex-row p-5 space-x-3 justify-center">
+                <a href="" class="flex flex-col">
+                    <span class="text-center "><i class="fa-brands fa-linkedin"></i></span>
+                    <span class="text-center text-base">LinkedIn</span>
+                </a>
+                <a href="" class="flex flex-col">
+                    <span class="text-center "><i class="fa-brands fa-square-twitter"></i></span>
+                    <span class="text-center text-base">Twitter</span>
+                </a>
+                <a href="" class="flex flex-col">
+                    <span><i class="fa-brands fa-github"></i></span>
+                    <span class="text-base">
+                        <p>Git &</p>
+                        <p>GitHub</p>
+                    </span>
+                </a>
             </div>
         </aside>
     </section>
