@@ -14,7 +14,8 @@ const sendMail = () => {
             email_form.name.value +
             ", " +
             email_form.email.value
-          }">Confirm and Submit Message</a>
+          }" class= "rounded p-3 text-white text-center font-medium m-auto bg-[#228b24] hover:bg-green-500"
+          >Confirm and Submit Message</a>
           `;
 
     submit_button_container.innerHTML = submit_button;
