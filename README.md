@@ -35,7 +35,7 @@
 #### 💬 Ask me about:
 
 🔸Python <br>
-🔸Python <br>
+🔸JavaScript <br>
 🔸Data Analysis <br>
 🔸Machine Learning <br>
 🔸Technical Writing <br>
@@ -45,13 +45,11 @@
 Almost anything in tech as I am a tech enthusiast and lover of technology especially its impact on the world.<br>
 Some of the technologies that I am learning include:
 
-🔸Node JS with EJS <br>
-🔸C | Embedded Systems <br>
-🔸Artificial Intelligence <br>
+🔸Pytorch <br>
 
 #### 👯 I’m looking to collaborate on:
 
-Open Source especially Python Projects that will benefit the world. <br>
+🔸Machine Learning Project <br>
 
 #### ⚡ Fun fact:
 
@@ -94,26 +92,18 @@ I do not fear computers but I fear lack of them. <br>
 
 <hr >
 
-<!-- ### Languages, Tools & AOB
+### Languages, Tools & AOB
 
 <hr />
 <p align="left">
 
   <img src="https://img.shields.io/badge/Python-red?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
-  <img src="https://img.shields.io/badge/scrum-C78765?style=for-the-badge&logo=scrum&logoColor=orange">
-  <img src="https://img.shields.io/badge/solidity-BB3837?style=for-the-badge&logo=solidity&logoColor=black">
-  <img src="https://img.shields.io/badge/Aws-F7DF1E?style=for-the-badge&logo=aws&logoColor=white">
-  <img src="https://img.shields.io/badge/ethereum-2334AC?style=for-the-badge&logo=ethereum&logoColor=yellow">
-  <img src="https://img.shields.io/badge/google-E34F26?style=for-the-badge&logo=google&logoColor=blue">
-  <img src="https://img.shields.io/badge/pycharm-344121?style=for-the-badge&logo=pycharm&logoColor=green">
-  <img src="https://img.shields.io/badge/openshot-A324C7?style=for-the-badge&logo=openshot&logoColor=white">
 
 </p>
 <br>
 
-### :writing_hand: Blog Posts : -->
+### :writing_hand: Blog Posts :
 
 <!-- BLOG-POST-LIST:START -->
 
