@@ -25,7 +25,7 @@
     <img
       width="256"
       align="right"
-      src="https://github.com/jumashafara/jumashafara/blob/main/devcard.svg" width="400" alt="Ronnie Atuhaire's Dev Card"
+      src="https://github.com/jumashafara/jumashafara/blob/main/devcard.svg" width="400" alt="Juma Shafara's Dev Card"
     />
   </a>
 </div>
